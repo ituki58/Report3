@@ -1,12 +1,14 @@
+package jp.ac.uryukyu.ie.e185716;
+
 public class LivingThing {
-    String name;
-    int hitpoint;
-    int attack;
-    boolean dead;
+    private String name;
+    private int hitPoint;
+    private int attack;
+    private boolean dead;
 
     public LivingThing(String name, int hitpoint, int attack){
         this.name = name;
-        this.hitpoint = hitpoint;
+        this.hitPoint = hitpoint;
         this.attack = attack;
         dead = false;
         System.out.printf("%sのHPは%d。攻撃力は%dです。\n", name, hitpoint, attack);
@@ -30,11 +32,11 @@ public class LivingThing {
     }
 
     public int getHitpoint(){
-        return hitpoint;
+        return hitPoint;
     }
 
     public void setHitpoint(int hitpoint) {
-        this.hitpoint = hitpoint;
+        this.hitPoint = hitpoint;
     }
 
     public int getAttack(){
