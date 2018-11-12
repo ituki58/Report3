@@ -9,11 +9,7 @@ package jp.ac.uryukyu.ie.e185716;
  * Created by tnal on 2016/11/13.
  */
 public class Hero extends LivingThing{
-    /*String name;
-    int hitPoint;
-    int attack;
-    boolean dead;*/
-
+    
     /**
      * コンストラクタ。名前、最大HP、攻撃力を指定する。
      * @param name ヒーロー名
